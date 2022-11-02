@@ -46,8 +46,8 @@ header{
 
 .main-container{
     width: 60%;
-    height: 2000px;
-    margin: 0 auto;;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .row{
@@ -71,3 +71,46 @@ header{
     height: 500px;
     background-color: aqua;
 }
+
+.central-container{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+}
+.central-container .content-text{
+    width: 1556px;
+    flex-direction: column;
+}
+
+.row-column{
+    flex-direction: column;
+}
+
+.row-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px 0px 40px 0px;
+}
+
+.col-1-30{
+    width: 30%;
+    min-height: 800px;
+    background-color: salmon;
+}
+.col-2-30{
+    width: 30%;
+    background-color: brown;
+}
+.col-3-30{
+    width: 30%;
+    background-color: lightgreen;
+}
+
+
+.radio-buttons{
+    width: 1556px;
+    height: 100px;
+    background-color: violet;
+}
+
