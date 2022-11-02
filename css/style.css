@@ -164,6 +164,8 @@ header{
     width: calc(100%/3);
     background-color: coral;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .row-square{
@@ -173,14 +175,26 @@ header{
     
 }
 
-.row-col-square-1{
+.col-square-1{
     width: calc(100%/2);
     background-color: black;
     height: calc(500px/2);
 }
 
-.row-col-square-2{
+.col-square-2{
     width: calc(100%/2);
     background-color: grey;
-    height: 500px;
+    height: calc(500px/2);
+}
+
+.col-square-3{
+    width: calc(100%/2);
+    background-color: green;
+    height: calc(500px/2);
+}
+
+.col-square-4{
+    width: calc(100%/2);
+    background-color: yellow;
+    height: calc(500px/2);
 }
