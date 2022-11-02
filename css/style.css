@@ -152,3 +152,35 @@ header{
     background-color: blue;
     height: 500px;
 }
+
+.row-square{
+     display: flex;
+    width: 100%;
+    
+
+}
+
+.col-33{
+    width: calc(100%/3);
+    background-color: coral;
+    height: 500px;
+}
+
+.row-square{
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.row-col-square-1{
+    width: calc(100%/2);
+    background-color: black;
+    height: calc(500px/2);
+}
+
+.row-col-square-2{
+    width: calc(100%/2);
+    background-color: grey;
+    height: 500px;
+}
