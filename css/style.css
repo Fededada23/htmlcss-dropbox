@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: blue
+    background-color:cornflowerblue
 }
 
 .background-white{
@@ -60,8 +60,8 @@ header{
     display: flex;
 }
 
-.content-text{
-    width: 1867px;
+.col-text{
+    width: 100%;
     height: 100px;
     background-color: blueviolet;
 }
@@ -84,7 +84,7 @@ header{
     background-color: white;
 }
 .central-container .content-text{
-    width: 1556px;
+    width: 100%;
     flex-direction: column;
 }
 
@@ -115,7 +115,7 @@ header{
 
 
 .radio-buttons{
-    width: 1556px;
+    width: 100%;
     height: 100px;
     background-color: violet;
 }
@@ -197,4 +197,29 @@ header{
     width: calc(100%/2);
     background-color: yellow;
     height: calc(500px/2);
+}
+
+.row-finale{
+    width: 100%;
+}
+
+.col-finale-1{
+    background-color: darkkhaki;
+    width: 100%;
+    height: 100px;
+}
+.col-finale-2{
+    background-color:darkred;
+    width: 100%;
+    height: 100px;
+}
+.col-finale-3{
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 100px;
+}
+.col-finale-4{
+    background-color: darkorange;
+    width: 100%;
+    height: 100px;
 }
