@@ -131,7 +131,7 @@ img{
     padding-top: 250px;
     background-color: white;
 }
-.container-enterprise{
+.container-section-2{
     border: 1px solid lightgrey;
 }
 
@@ -205,14 +205,11 @@ img{
 }
 .col-60{
     width: 60%;
-    background-color: aqua;
-    height: 500px;
 }
 
 .col-40{
     width: 40%;
-    background-color: blue;
-    height: 500px;
+    padding: 70px;
 }
 
 .row-square{
