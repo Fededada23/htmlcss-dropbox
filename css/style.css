@@ -14,6 +14,7 @@ body{
     width: 100%;
 }
 
+
 .margin-bottom{
     margin-bottom: 50px;
 }
@@ -129,7 +130,7 @@ img{
     width: 50%;
     margin: 0 auto;
     padding-top: 250px;
-    background-color: white;
+   
 }
 .container-section-2{
     border: 1px solid lightgrey;
@@ -221,41 +222,50 @@ img{
 
 .col-33{
     width: calc(100%/3);
-    background-color: coral;
-    height: 500px;
     display: flex;
     flex-wrap: wrap;
+}
+.col-33-central{
+    width: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;
 }
 
 .row-square{
     width: 100%;
     display: flex;
-    
+    margin-top: 100px;
     
 }
 
 .col-square-1{
     width: calc(100%/2);
-    background-color: black;
-    height: calc(500px/2);
+   background-color: lightgreen;
+   padding: 160px;
+   color: white;
+
 }
 
 .col-square-2{
     width: calc(100%/2);
-    background-color: grey;
-    height: calc(500px/2);
+    padding: 160px;
+    background-color: darkred;
+   
 }
 
 .col-square-3{
     width: calc(100%/2);
-    background-color: green;
-    height: calc(500px/2);
+    padding: 160px;
+    background-color: lightslategray;
+  
 }
-
 .col-square-4{
     width: calc(100%/2);
-    background-color: yellow;
-    height: calc(500px/2);
+    padding: 160px;
+    background-color: red;
+    
+    
 }
 
 .row-finale{
