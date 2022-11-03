@@ -26,10 +26,28 @@ header{
 .button{
     border: 1px solid white;
     color: white;
+    
+}
+
+.button-main{
+    border: 1px solid white;
+    color: white;
+    margin: 50px 0px 50px 0px;
+}
+
+.content i{
+    font-size: 40px;
+    padding: 150px 0px 0px 0px;
 }
 
 .blue{
     background-color: blue;
+}
+
+.h1{
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
 
 .left-header{
@@ -58,7 +76,6 @@ header{
     width: 60%;
     height: 100%;
     margin: 0 auto;
-    background-color: blue;
 }
 
 .row{
@@ -67,20 +84,20 @@ header{
 
 .col-text{
     width: 100%;
-    height: 100px;
-    background-color: blueviolet;
 }
 
 .col-30{
     width: 30%;
-    height: 500px;
-    background-color: salmon;
+    line-height: 25px;
 }
 
 .col-70{
-    width: 70%;
-    height: 500px;
-    background-color: aqua;
+    width: 100%;
+    
+}
+
+img{
+    width: 100%;
 }
 
 .central-container{
