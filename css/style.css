@@ -4,7 +4,15 @@
     box-sizing: border-box;
     font-family:sans-serif;
 }
+.white{
+    color: white;
 
+}
+
+.linea-footer{
+    width: 150px;
+    
+}
 
 .background-white{
     background-color: white;
@@ -377,8 +385,15 @@ img{
 }
 .bottom-row{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .col-bottom{
     margin-right: 200px;
+}
+
+.label{
+    border: 1px solid black;
+    color: white;
+    padding: 50px 0;
 }
