@@ -5,13 +5,13 @@
     font-family:sans-serif;
 }
 
-body{
-    background-color:rgb(180, 208, 231)
-}
 
 .background-white{
     background-color: white;
     width: 100%;
+}
+.bckgrnd-celeste{
+    background-color:rgb(180, 208, 231)
 }
 
 .content-col-2 p{
@@ -46,6 +46,10 @@ header{
     top: 0;
     z-index: 1;
     position: fixed;
+}
+
+footer{
+    background-color: black;
 }
 
 button{
@@ -164,6 +168,11 @@ h4{
 
 .row{
     display: flex;
+    
+}
+.row-2{
+    align-items: center;
+    display: flex;
 }
 
 .col-text{
@@ -196,6 +205,11 @@ img{
     padding-top: 150px;
    
 }
+.central-container-2{
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}    
 .container-section-2{
     border: 1px solid lightgrey;
 }
@@ -281,6 +295,22 @@ img{
 
 }
 
+.central-container-3{
+    padding-bottom: 150px;
+    padding-top: 150px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.col-bottom p{
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 30px;
+    color: white;
+}
+.col-bottom ul{
+    color: white;
+}
 .col-33{
     width: calc(100%/3);
     display: flex;
@@ -347,4 +377,8 @@ img{
 }
 .bottom-row{
     display: flex;
+}
+
+.col-bottom{
+    margin-right: 200px;
 }
